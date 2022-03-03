@@ -1,0 +1,20 @@
+# For local testing
+# [programs.localnet]
+
+# For devnet testing
+[programs.devnet]
+myepicproject = "7EH1hfht9LY56wA4Yab8EqPLnrSaqqaN8szTs8wFCeJW"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+# For local testing
+# cluster = "localnet"
+
+# For devnet testing
+cluster = "devnet"
+wallet = "/root/.config/solana/id.json"
+
+[scripts]
+test = "npx mocha -t 1000000 tests/"
