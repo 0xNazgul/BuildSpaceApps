@@ -1,0 +1,19 @@
+{
+    "name": "Gandalf The White",
+    "symbol": "GAND",
+    "image": "2.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "2.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "HE3DaJaS1AK6wWvgzRd7LWLnupZLMAqCCbecJqPzavvZ",
+          "share": 100
+        }
+      ]
+    }
+}
